@@ -1,0 +1,119 @@
+/* Global Level css for Analytics Webpage */
+
+/* Reset Style Starts */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } 
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; } 
+body { font-family: 'Roboto' } 
+ol, ul { list-style: none; } 
+blockquote, q { quotes: none; } 
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; } 
+table { border-collapse: collapse; border-spacing: 0; } 
+* { padding:0; margin:0; box-sizing: border-box; outline: none; } 
+*:before,*:after { padding:0; margin:0; } 
+a,a:hover { text-decoration: none; } 
+
+/* Font Family */
+@font-face { font-family: 'Roboto'; src: url('../src/assets/fonts/Roboto.eot'); src: url('../src/assets/fonts/Roboto.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Roboto.ttf') format('truetype'), url('../src/assets/fonts/Roboto.woff') format('woff'), url('../src/assets/fonts/Roboto.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
+@font-face { font-family: 'Roboto-bold'; src: url('../src/assets/fonts/Roboto-bold.eot'); src: url('../src/assets/fonts/Roboto-bold.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Roboto-bold.ttf') format('truetype'), url('../src/assets/fonts/Roboto-bold.woff') format('woff'), url('../src/assets/fonts/Roboto-bold.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
+@font-face { font-family: 'Roboto-Medium'; src: url('../src/assets/fonts/Roboto-Medium.eot'); src: url('../src/assets/fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Roboto-Medium.ttf') format('truetype'), url('../src/assets/fonts/Roboto-Medium.woff') format('woff'), url('../src/assets/fonts/Roboto-Medium.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
+@font-face { font-family: 'Roboto-Light'; src: url('../src/assets/fonts/Roboto-Light.eot'); src: url('../src/assets/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'), url('../src/assets/fonts/Roboto-Light.ttf') format('truetype'), url('../src/assets/fonts/Roboto-Light.woff') format('woff'), url('../src/assets/fonts/Roboto-Light.woff2') format('woff2'); font-weight: normal; font-style: normal; } 
+
+/* Font Class */
+.roboto { font-family: 'Roboto'; } 
+.roboto-bold { font-family: 'Roboto-bold'; } 
+.roboto-medium { font-family: 'Roboto-Medium'; } 
+.roboto-light { font-family: 'Roboto-Light'; } 
+
+/* Typography */
+.fs-60 { font-size: 60px; margin: 0; } 
+h1,.h1 { font-size: 50px; margin: 0; } 
+h2,.h2 { font-size: 40px; margin: 0; } 
+h3,.h3 { font-size: 30px; margin: 0; } 
+h4,.h4 { font-size: 18px; margin: 0; } 
+h5,.h5 { font-size: 16px; margin: 0; } 
+h6,.h6 { font-size: 14px; margin: 0; } 
+p { margin-top: 0; } 
+
+/* Font Weight */
+.font-weight-bold { font-weight: 700 !important; } 
+.font-weight-light { font-weight: 400 !important; } 
+
+/* Font Color */
+.text-primary { color : #172755 !important; } 
+.text-secondary { color: #8794BA !important; } 
+
+
+/* Background Color */
+.bg-blue { background: #2A407C; } 
+.bg-gray { background: #D3D9E9; } 
+.bg-dark-blue { background: #0F1F4B; } 
+
+/* Button */
+.btn { padding: 10px 53px; border-radius: 68px; outline: none; box-shadow: none; font-size: 16px; font-weight: 400; border:none; } 
+.btn-px { padding: 12px 80px; } 
+.btn-primary { background: #EF2A82 !important; } 
+.btn-border { border: 1px solid #2A407C; } 
+.border-transparent { border: 1px solid transparent; } 
+/* .btn:active,.btn:focus { box-shadow: none; outline: none; color: #172755 !important; }  */
+.btn:active,.btn:focus { box-shadow: none; outline: none; color: #f00 !important; } 
+.btn.btn-border:hover:not(.navbar-btngroup .btn) { background: #EF2A82; color: #fff !important; } 
+.btn.btn-primary:hover { color: #fff !important; } 
+ 
+/* Line Height */
+.lh-23 { line-height: 23px; } 
+.lh-27 { line-height: 27px; } 
+.lh-35 { line-height: 35px; } 
+.lh-47 { line-height: 47px; } 
+.lh-60 { line-height: 60px; } 
+
+/* Margin */
+.mt-50 { margin-top: 50px; } 
+.mb-60 { margin-bottom: 60px; } 
+.mb-80 { margin-bottom: 80px; } 
+.mb-100 { margin-bottom: 100px; } 
+
+/* Border Radius */
+.br-30 { border-radius: 30px; } 
+
+
+/* Datepicker */
+.bs-datepicker-container { padding: 0px; } 
+.theme-green .bs-datepicker-head { display: none!important; } 
+.bs-datepicker-body { border: none; } 
+.bs-datepicker { box-shadow: none; } 
+.bs-datepicker-body table td span.is-other-month { display: none; } 
+.theme-green .bs-datepicker-body table td.week span { display: none; } 
+/* .bs-datepicker-body table th { padding: 15px; } */
+.theme-green .bs-datepicker-body table td span.selected { background-color: #EF2A82!important; } 
+
+/* Horizontal Line */
+.hr-line { height: 1px; } 
+
+/* Border */
+.border-blue { border: 2px solid transparent; } 
+.border-blue:hover { border: 2px solid #0088F0; } 
+
+/* Media Query */
+@media only screen and (max-width: 767px) { h1,.h1 { font-size: 30px; line-height: 35px; } 
+ h2,.h2 { font-size: 27px; line-height: 30px; } 
+ h3,.h3 { font-size: 23px; line-height: 27px; } 
+ h4,.h4 { font-size: 16px; line-height: 20px; } 
+ .fs-60 { font-size: 45px; line-height: 50px; } 
+ .mt-50 { margin-top: 25px; } 
+ .btn { padding: 8px 45px; } 
+ }

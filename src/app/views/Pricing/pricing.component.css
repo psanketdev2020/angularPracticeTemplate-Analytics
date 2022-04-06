@@ -1,0 +1,8 @@
+.pricing { background-image: url('../../../assets/images/footer-bg.png'); background-size: cover; background-position: 100% 0; padding:255px 0 200px; } 
+.pricing-plan .pricing-plan-header>p { max-width: 650px; margin: 0 auto; } 
+
+@media only screen and (max-width: 767px) {
+  .pricing {
+    padding: 120px 0 100px;
+  }
+}

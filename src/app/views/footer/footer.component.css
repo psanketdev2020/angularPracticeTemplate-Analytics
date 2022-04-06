@@ -1,0 +1,3 @@
+footer .list > .list-item:not(:last-child) { margin-right: 35px; } 
+footer .list > .list-item:hover { color: #fff !important; }
+footer .social-links > .list-item:not(:last-child) { margin-right: 40px;}
